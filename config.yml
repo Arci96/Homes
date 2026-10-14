@@ -1,0 +1,3 @@
+# Maximale Anzahl an Homes pro Spieler
+# (Spieler mit der Permission homes.unlimited haben keine Begrenzung)
+max-homes: 5

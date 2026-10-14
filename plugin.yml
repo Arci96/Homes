@@ -1,0 +1,25 @@
+name: Homes
+version: '1.0'
+main: de.homes.HomesPlugin
+api-version: '1.21'
+description: Mehrere Homes setzen und dorthin teleportieren
+commands:
+  sethome:
+    description: Setzt ein Zuhause an deiner Position
+    usage: /sethome [name]
+  home:
+    description: Teleportiert dich zu einem Zuhause
+    usage: /home [name]
+  delhome:
+    description: Löscht ein Zuhause
+    usage: /delhome <name>
+  homes:
+    description: Zeigt alle deine Zuhause
+    usage: /homes
+permissions:
+  homes.use:
+    description: Erlaubt die Nutzung der Home-Befehle
+    default: true
+  homes.unlimited:
+    description: Keine Begrenzung der Anzahl an Homes
+    default: op
